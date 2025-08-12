@@ -1,0 +1,38 @@
+  .tahoma-text {
+        font-family: Tahoma;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    .advertise-text {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0;
+
+    }
+
+    .promotion-text {
+        font-family: Arial;
+        font-size: 13px;
+        color: red;
+        font-style: italic;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .price-text{
+        font-family:Arial;
+        font-size:30px;
+    }
+    .price-text span{
+        color: gray;
+        font-size:20px;
+    }
+    .idk-text{
+        font-family:Arial;
+        color:gray;
+    }
+    .idk-text span{
+        color:red;
+    }

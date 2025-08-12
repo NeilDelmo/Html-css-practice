@@ -1,0 +1,15 @@
+p{
+    font-family:"Montserrat", sans-serif;
+    margin:0;
+}
+.model-text{
+    font-weight:700;
+    font-size:30px;
+}
+.Order-text{
+    font-weight:400;
+    font-size:15px;
+}
+.Order-text span{
+    text-decoration:underline;
+}
