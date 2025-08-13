@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Div Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .square {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border-style: none;
+
+        }
+
+        .circle {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .border {
+            border-style: solid;
+            width: 250px;
+            border-width: 1px;
+            border-color: rgb(199, 199, 199);
+        }
+
+        .satisfaction {
+            padding-left: 10px;
+            font-family: arial;
+        }
+
+        .yes,
+        .no {
+            margin-left: 10px;
+        }
+
+        .youtube-music {
+            background-color: rgb(45, 45, 45);
+            width: 280px;
+        }
+
+        .install {
+            font-weight: bold;
+            font-size: 20px;
+            color: white;
+            padding-left: 8px;
+            padding-top: 15px;
+            font-family: arial;
+
+        }
+
+        .add-youtube {
+            color: rgb(190, 189, 189);
+            font-size: 13px;
+            font-family: arial;
+            padding-left: 8px;
+            padding-bottom: 15px;
+        }
+
+        .border-tweet {
+            border-radius: 5px;
+            border-style: none;
+            box-shadow: 0 0 5px rgb(199, 198, 198);
+            width: 315px;
+
+        }
+
+        .patrick-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            vertical-align: middle;
+            margin: 10px 5px 10px 5px;
+
+        }
+
+        .tweet-message {
+            font-family: Arial;
+            font-size: 15px;
+            color: gray;
+            border-style: none;
+            vertical-align: middle;
+            padding-left: 10px;
+            margin-right: -5px;
+
+        }
+
+        .tweet-button {
+            background-color: rgb(45, 148, 238);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            border-style: none;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-left: -10px;
+            padding: 5px 10px 5px 1 0px;
+        }
+
+        .card {
+            width: 135px;
+            height: 200x;
+            margin-left: 0;
+            display: inline-block;
+        }
+
+        .info {
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+            margin-top: 0;
+            width: 130px;
+            border: none;
+        }
+
+        .profile-picture1 {
+            width: 130px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            display: block;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .name {
+            font-weight: bold;
+            font-family: arial;
+            margin-top: 0;
+            padding-top: 10px;
+            margin-bottom: 0;
+            padding-left: 4px;
+        }
+
+        .friends {
+            font-size: 12px;
+            color: gray;
+            font-family: arial;
+            margin-top: 2px;
+            margin-bottom: 0;
+            padding-left: 4px;
+        }
+
+        .add-friend {
+            background-color: rgb(64, 133, 202);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 7px;
+            margin-left: 4px;
+            margin-bottom: 7px;
+            padding: 6px;
+        }
+
+        .google {
+            width: 400px;
+            text-align: center;
+        }
+
+        .google-logo-div,
+        .google-search-div {
+            text-align: center;
+        }
+
+        .google-logo {
+            width: 150px;
+            height: 60px;
+            margin-bottom: 0;
+            object-fit: cover;
+
+
+        }
+
+        .google-search {
+            border-radius: 20px;
+            border-style: none;
+            box-shadow: 0 0 6px rgb(218, 212, 212);
+            border-color: gray;
+            width: 300px;
+            margin-top: 0;
+            padding: 8px 0 8px 10px;
+
+        }
+
+        .google-suggestion {
+            background-color: rgb(232, 232, 232);
+            display: inline-block;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align:center;
+            margin-left:5px;
+        }
+
+        p {
+            font-family: 'Roboto',arial;
+            padding:0 10px;
+            margin:7px 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="square">
+    </div>
+    <br>
+    <div class="circle"></div>
+    <br>
+    <div class="border">
+        <p class="satisfaction">Satisfied with our service?</p>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+    <br>
+    <div class="youtube-music">
+        <p class="install">Install YouTube Music</p>
+        <p class="add-youtube">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+    <br>
+    <br>
+    <div class="border-tweet">
+        <img class="patrick-image"
+            src="https://e1.pxfuel.com/desktop-wallpaper/383/574/desktop-wallpaper-90-unique-patrick-starfish-2019-patrick-from-spongebob.jpg">
+        <input class="tweet-message" type="text" placeholder="What's happening?"><button
+            class="tweet-button">tweet</button>
+    </div>
+    <br>
+    <br>
+    <div class="card">
+        <img class="profile-picture1" src="https://nextluxury.com/wp-content/uploads/funny-profile-pictures-17.png">
+        <div class="info">
+            <p class="name">Smith</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="card">
+        <img class="profile-picture1" src="https://nextluxury.com/wp-content/uploads/funny-profile-pictures-17.png">
+        <div class="info">
+            <p class="name">Smith</p>
+            <p class="friends">2 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </div>
+    <div class="card">
+        <img class="profile-picture1"
+            src="https://www.jokesforfunny.com/wp-content/uploads/2021/06/0596bdb89b60fe771acd2f5972a9d3e3-1158x1536.jpg">
+        <div class="info">
+            <p class="name">Dora</p>
+            <p class="friends">3 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </div>
+    <div class="card">
+        <img class="profile-picture1"
+            src="https://i.pinimg.com/originals/54/a2/64/54a264cfb3bd3b4710c2a6db1c381b16.jpg">
+        <div class="info">
+            <p class="name">Patrick</p>
+            <p class="friends">4 mutual friends</p>
+            <button class="add-friend">Add Friend</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="google">
+        <div class="google-logo-div"><img class="google-logo"
+                src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png">
+        </div>
+
+        <div class="google-search-div"><input class="google-search" type="text"
+                placeholder="Search Google or type a URL">
+        </div>
+        <div class="google-suggestion">
+            <p>Google Search</p>
+        </div>
+        <div class="google-suggestion">
+            <p>I'm Feeling Lucky</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
