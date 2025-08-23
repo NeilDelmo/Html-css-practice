@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Flex practice</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .first-div {
+            background-color: lightblue;
+            width: 200px;
+        }
+
+        .second-div {
+            background-color: lightpink;
+            width: 75px;
+        }
+
+        .first-item {
+            background-color: lightblue;
+        }
+
+        .second-item {
+            background-color: lightpink;
+            flex: 1;
+
+        }
+
+        .third-item {
+            background-color: lightblue;
+        }
+        .flex-container-third {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            gap:10px;
+            width:600px;
+        }
+        .first-item-third {
+            background-color:lightblue;
+        }
+        .second-item-third {
+            background-color:pink;
+        }
+        .third-item-third {
+            background-color:lightblue;
+        }
+        .fourth-item-third {
+            background-color:pink;
+        }
+        .flex-container-fourth {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            gap:10px;
+            width:200px;
+            height:50px;
+            align-items:center;
+            border-style:solid;
+            border-color:gray;
+            border-width:1.5px;
+        }
+        .first-item-fourth {
+            background-color:lightblue;
+        }
+        .second-item-fourth {
+            background-color:pink;
+        }
+        </style>
+</header>
+
+<body>
+    <div class="flex-container">
+        <div class="first-div">
+            200px
+        </div>
+
+        <div class="second-div">
+            75px
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="flex-container">
+        <div class="first-item">
+            item1
+        </div>
+
+        <div class="second-item">
+            item2
+        </div>
+        <div class="third-item">
+            item3
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="flex-container-third">
+            <div class="first-item-third">
+                item1
+            </div>
+            <div class="second-item-third">
+                item2
+            </div>
+            <div class="third-item-third">
+                item3
+            </div>
+            <div class="fourth-item-third">
+                item4
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="flex-container-fourth">
+            <div class="first-item-fourth">
+                item1
+            </div>
+            <div class="second-item-fourth">
+                item2
+            </div>
+        </div>
+</body>
+
+</html>
